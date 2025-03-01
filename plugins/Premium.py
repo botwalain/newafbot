@@ -159,5 +159,5 @@ async def plan(client, message):
         ],[            
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
     ]]
-    await message.reply_photo(photo="https://envs.sh/Wdj.jpg", caption=script.PREMIUM_TEXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
+    await message.reply_photo(photo="https://envs.sh/bdt.jpg", caption=script.PREMIUM_TEXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
     

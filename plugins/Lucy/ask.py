@@ -17,7 +17,7 @@ async def gpt_handler(client: Client, message: Message):
         name = message.from_user.first_name or "User"
 
         if len(message.command) < 2:
-            await message.reply_text(f"<b>Hello {name}, I am Lucy. How can I help you today?</b>")
+            await message.reply_text(f"<b>Hello {name}, How can I help you today?</b>")
             return
 
         query = message.text.split(' ', 1)[1]

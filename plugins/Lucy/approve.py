@@ -26,7 +26,7 @@ async def autoapprove(client, message: ChatJoinRequest):
         
         # Create buttons with the invite link and updates channel link
         buttons = [
-            [InlineKeyboardButton('• ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs •', url='https://t.me/codeflix_bots')],
+            [InlineKeyboardButton('• ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs •', url='https://t.me/WholesomeCity')],
             [InlineKeyboardButton(f'• ᴊᴏɪɴ {chat.title} •', url=invite_link)]
         ]
         markup = InlineKeyboardMarkup(buttons)
@@ -35,7 +35,7 @@ async def autoapprove(client, message: ChatJoinRequest):
         # Send a message with an image and buttons after approval
         await client.send_photo(
             chat_id=user.id,
-            photo='https://graph.org/file/af409141d781c8ff521e4.jpg',
+            photo='https://envs.sh/bdt.jpg',
             caption=caption,
             reply_markup=markup
         )
